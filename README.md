@@ -8,9 +8,9 @@ GRT token is ERC20 smart-contract for Ethereum blockchain
 <p>Decimals    : 4</p>
 
 ## The Idea 
-GoRecruit token sale goes through investors dashboard, funds are collecting on HD individual BTC and ETH addresses. That allows us working Bitcoin and Ethereum sent from any type of wallets, including crypto exchanges accounts, and that is why we have not implemented any crowd sale functions in our smart-contract.  
+GoRecruit token sale goes through contributors dashboard, funds are collecting on HD individual BTC and ETH addresses. That allows us working Bitcoin and Ethereum sent from any type of wallets, including crypto exchanges accounts, and that is why we have not implemented any crowd sale functions in our smart-contract.  
 
-Because of security reasons all collected funds are transferred to cold storage wallets on daily basis, meantime ERC20 tokens are transferred to investors.
+Because of security reasons all collected funds are transferred to cold storage wallets on daily basis, meantime ERC20 tokens are transferred to contributors.
 
 ## Smart-contract
 GRT is solidity smart-contract based on typical ERC20 implementation:
@@ -18,7 +18,7 @@ GRT is solidity smart-contract based on typical ERC20 implementation:
 
 ## Basic interface extensions
 ### Pausable smart-contract
-To avoid any inconvenience for investors during crowd sale campaign, we have implemented pause function that blocks all token transfers except owners transactions. 
+To avoid any inconvenience for contributors during crowd sale campaign, we have implemented pause function that blocks all token transfers except owners transactions. 
 Pause doesn't affect contract owners operations. After 1st of May 2019, if contract is paused, it is resumed and cannot be paused anymore. That guarantees full control over initially distributed tokens.  
 
 ### Mass sending
