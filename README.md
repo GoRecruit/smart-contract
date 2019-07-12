@@ -3,7 +3,7 @@
 GRT token is ERC20 smart-contract for Ethereum blockchain
 
 <p>Symbol      : GRT</p>
-<p>Name        : GoRecru.it ERC20 token</p>
+<p>Name        :  RecruitCoin</p>
 <p>Total supply: 2,450,000,000</p>
 <p>Decimals    : 18</p>
 
