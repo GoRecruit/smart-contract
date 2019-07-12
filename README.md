@@ -5,7 +5,7 @@ GRT token is ERC20 smart-contract for Ethereum blockchain
 <p>Symbol      : GRT</p>
 <p>Name        : GoRecru.it ERC20 token</p>
 <p>Total supply: 2,450,000,000</p>
-<p>Decimals    : 4</p>
+<p>Decimals    : 18</p>
 
 ## The Idea 
 GoRecruit token sale goes through contributors dashboard, funds are collecting on HD individual BTC and ETH addresses. That allows us working Bitcoin and Ethereum sent from any type of wallets, including crypto exchanges accounts, and that is why we have not implemented any crowd sale functions in our smart-contract.  
